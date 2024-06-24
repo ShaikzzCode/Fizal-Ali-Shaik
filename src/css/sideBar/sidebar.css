@@ -1,0 +1,18 @@
+.sidebar{
+    width: 60px;
+    height: 100vh;
+    background-color: var(--mainColor);
+    border-right: 1px solid var(--secondayColor);
+    box-shadow: 0 0 15px var(--boxShadow);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    /* display: none; */
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+}

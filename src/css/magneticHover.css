@@ -1,0 +1,98 @@
+.projectsSection{
+    perspective: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.magnetic_box {
+    min-width: 300px;
+    /* max-width: 320px; */
+    width: 80%;
+    /* height: 300px; */
+    height: 200px;
+    /* background-color: var(--secondayColor); */
+    /* background-color: white; */
+    /* box-shadow: 0 0 15px var(--secondayColor); */
+    background-color: rgba(0, 0, 0, 0.252);
+    box-shadow: 0 0 15px rgba(255, 242, 0, 0.047);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    border-radius: 10px;
+    transition: transform 0.1s ease;
+    transform-style: preserve-3d;
+    margin: 10px;
+    overflow: hidden;
+    transition: box-shadow 1s;
+}
+.magnetic_box:hover{
+    box-shadow: 0 0 15px var(--secondayColor);
+}
+
+.magnetic_box img{
+    width: 40%;
+    aspect-ratio: 1/1;
+}
+
+.projectTitle button{
+    font-family: 'Poppins','serif';
+    background-color: black;
+    color: aliceblue;
+    border: none;
+    /* outline: none; */
+    padding: 4px 6px;
+    border-radius: 4px;
+    font-weight: bold;
+    text-transform: capitalize;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+
+.projectTitle button:hover{
+    background-color: rgb(29, 29, 29);
+    padding: 4px 10px;
+}
+
+.projectTitle{
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.652); */
+    /* background-color: rgba(255, 255, 255, 0.352); */
+    /* background-color: rgba(253, 255, 158, 0.49); */
+    background-color: var(--secondayColor);
+    position: absolute;
+    bottom: -100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: bottom 0.5s;
+    padding: 15px;
+    color: black;
+    backdrop-filter: blur(5px);
+}
+.projectTitle p{
+    font-size: 20px;
+    letter-spacing: 2px;
+    /* color: var(--secondayColor); */
+}
+.magnetic_box span{
+    font-size: 14px;
+    font-family: "Poppins",serif;
+    text-align: center;
+}
+
+.magnetic_box:hover .projectTitle{
+    bottom: 0;
+}
+
+
+
+
+
+
+
+

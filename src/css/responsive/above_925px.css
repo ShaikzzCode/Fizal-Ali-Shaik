@@ -1,0 +1,110 @@
+@media screen and (min-width: 925px) {
+
+    .firstSec {
+        width: calc(100% - 180px);
+    }
+
+    .bgText span {
+        font-size: 5rem;
+        top: 315px;
+        left: -190px;
+    }
+
+    .sectionMain.left {
+        margin-left: 60px;
+        width: calc(100% - 200px);
+    }
+
+    .fizlProfileHolder {
+        flex-direction: row;
+        margin-top: 100px;
+    }
+
+    .fizlProfileHolder img {
+        width: 500px;
+        height: 500px;
+        margin-top: 0px;
+        order: 1;
+    }
+
+    .fizalDescri {
+        order: 1;
+    }
+
+    .fizalDescri span {
+        font-size: 4rem;
+    }
+
+    .fizalDescri p {
+        font-size: 2rem;
+    }
+
+
+
+    .aboutMeH1 {
+        display: inline-block;
+        font-size: 3.5rem;
+        color: var(--secondayColor);
+        text-transform: uppercase;
+        text-shadow: 0 2px 3px rgba(0, 0, 0, 0.504);
+        -webkit-text-stroke: 1px rgb(0, 0, 0);
+        transition: all 0.5s ease-in-out;
+        text-align: end;
+        animation: bounceAnim 1s infinite;
+        margin-left: 10px;
+    }
+
+    .secondSec {
+        padding: 20px;
+    }
+    .secondSec .aboutParaDiv {
+        width: 100%;
+        max-width: 600px;
+        height: auto;
+        background: var(--mainColor);
+        border: 1px solid var(--secondayColor);
+        border-radius: 20px;
+        font-family: "Poppins", sans-serif;
+        margin-top: 10px;
+        box-shadow: inset 0 0 10px #000000a1;
+    }
+    .aboutParaDiv p{
+        font-size: 1.3rem;
+        font-family: "Poppins", sans-serif;
+        padding: 20px;
+        color: rgb(165, 164, 143);
+    }
+    .aboutParaDiv p span{
+        font-family: "Poppins", sans-serif;
+        color: var(--secondayColor);
+    }
+    .personalInfoSec{
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 20px;
+    }
+    .personalInfo{
+        height: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        padding-bottom: 20px;
+
+    }
+    .personalInfo p{
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+        font-size: 1.2rem;
+    }
+
+
+
+
+
+
+
+
+
+}
